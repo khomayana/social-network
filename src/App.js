@@ -10,7 +10,7 @@ import Settings from './components/Settings/Settings';
 
 
 const App = (props) => {
-  // console.log(props)
+  // debugger
 
   return (
     <div className='app-wrapper'>
