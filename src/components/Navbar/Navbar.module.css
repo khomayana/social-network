@@ -1,0 +1,26 @@
+.menu {
+    grid-area: m;
+    background-color: rgb(136, 139, 163);
+    padding: 20px;
+}
+
+.item:not(:last-child) {
+    padding-bottom: 10px;
+
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.active {
+    color: gold;
+}

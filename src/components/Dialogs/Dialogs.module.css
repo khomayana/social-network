@@ -1,0 +1,40 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: max-content;
+    padding: 20px;
+}
+
+.dialogsCatalog {}
+
+.dialogItem:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+
+.messageCatalog {}
+
+
+.messageItem:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+.active {
+    color: gold;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+
+
+.avaBox {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(6, 47, 8);
+}
