@@ -25,10 +25,10 @@ const Navbar = (props) => {
                     </li>
                 </ul>
             </nav >
-            <div className={style.sidebar}>
+            {/* <div className={style.sidebar}>
                 <Sidebar friendsData={props.state.friendsData} />
 
-            </div>
+            </div> */}
         </div>
     );
 }
